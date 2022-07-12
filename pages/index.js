@@ -52,7 +52,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href='/'        
+          href="https://github.com/vercel/next.js/tree/canary/examples"       
         >
           <span>{`Founded by `}<span className={styles.author}>Sadia Haque</span></span>
           {/* <span className={styles.logo}>
