@@ -22,7 +22,11 @@
   justify-content: center;
   align-items: center;
 }
-
+.author{
+  color: #0070f3;
+  font-size: 2em;
+  font-weight: bold;
+}
 .footer a {
   display: flex;
   justify-content: center;

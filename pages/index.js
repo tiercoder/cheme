@@ -15,19 +15,19 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">ChemE</a>
         </h1>
-      <img src="/read.png"></img>
+      <Image height={400} width={392} src="/read.png"></Image>
       <h1 className={styles.title}>
           Don't Watch Just<a href="https://nextjs.org">Learn</a>
         </h1>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>The Begining &rarr;</h2>
+            <p>Make a note about your goal </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about chemistry in an interactive course with quizzes!</p>
           </a>
 
           <a
@@ -35,16 +35,16 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Discover your self in a better place with examples</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Revise &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Revise until you get it.
             </p>
           </a>
         </div>
@@ -52,14 +52,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='/'        
         >
-          Powered by{' '}
-          <span className={styles.logo}>
+          <span>{`Founded by `}<span className={styles.author}>Sadia Haque</span></span>
+          {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          </span> */}
+          
         </a>
       </footer>
     </div>
