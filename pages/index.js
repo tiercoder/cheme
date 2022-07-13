@@ -13,53 +13,72 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">ChemE</a>
+          Welcome to <span>ChemE</span>
         </h1>
-      <Image height={400} width={392} src="/read.png"></Image>
+      <Image height={400} width={392} src="/teaching.png"></Image>
       <h1 className={styles.title}>
-          Don't Watch Just<a href="https://nextjs.org">Learn</a>
+          Don't Watch Just <span>Learn</span>
         </h1>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <div  className={styles.card}>
             <h2>The Begining &rarr;</h2>
             <p>Make a note about your goal </p>
-          </a>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <div  className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about chemistry in an interactive course with quizzes!</p>
-          </a>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+          <div
+            
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
             <p>Discover your self in a better place with examples</p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <div
             className={styles.card}
           >
             <h2>Revise &rarr;</h2>
             <p>
               Revise until you get it.
             </p>
-          </a>
+          </div>
+        </div>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+          <Image width={150} height={150} src="/graduate.png"></Image>
+            <h2>Skilled Instructor</h2>
+            <p>Want make us to learn fast,Obviously our Teachers</p>
+          </div>
+          <div className={styles.card}>
+          <Image width={150} height={150} src="/onlineCourses.png"></Image>
+            <h2>Online Courses</h2>
+            <p>Best Quality Courses available here.</p>
+          </div>
+          <div className={styles.card}>
+          <Image width={150} height={150} src="/library.png"></Image>
+            <h2>Book Library</h2>
+            <p>Just pick the best book from collection</p>
+          </div>
+          <div className={styles.card}>
+          <Image width={150} height={150} src="/online.png"></Image>
+            <h2>Home Tution</h2>
+            <p>Provides high quality content delivery through  virtual mode</p>
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://github.com/vercel/next.js/tree/canary/examples"       
-        >
+        <div>
           <span>{`Founded by `}<span className={styles.author}>Sadia Haque</span></span>
           {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span> */}
           
-        </a>
+        </div>
       </footer>
     </div>
   )

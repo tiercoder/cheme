@@ -1,0 +1,11 @@
+.about{
+    text-align: center;
+    margin-top:100px;
+}
+.about h1{
+    font-size: 4em;
+}
+.about h1 span{
+    color:#0070f3;
+
+}
